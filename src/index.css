@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.singleitem {
+  background: #008080;
+  box-shadow: inset 10px 10px 20px #006666, inset -10px -10px 20px #009a9a;
+}
+
+.controlledclass {
+  pointer-events: none;
+}
+.controlledclasshtml {
+  overflow-y: hidden;
+  pointer-events: none;
+}
