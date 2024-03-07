@@ -24,6 +24,7 @@ const UserModal = ({ isdialog, setisdialog, gituser }) => {
     const githubkey = import.meta.env.VITE_GITHUB_API_KEY;
 
     try {
+
       let data = await fetch(
         `https://api.github.com/users/${gituser?.login}/following`,
         {
